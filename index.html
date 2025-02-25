@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Event Invitation Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <header>
+            <h1><strong> You are Invited! </strong></h1>
+            <p>We cordially invite you to the ultimate coding showdown!</p>
+        </header>
+
+        <main>
+            <section>
+                <img src="https://placehold.co/400x200/E7D1BB/84725e/?text=Coding Event&font=playfair display" alt="Past Coding Event" width="400" height="200">
+            </section>
+        
+            <section>
+                <h2>Event Details</h2>
+                <p><strong>Event Name:</strong> CodeXtravaganza 2025 The Ultimate Coding Showdown</p>
+                <p><strong>Date:</strong> 14th March 2025</p>
+                <p><strong>Time:</strong> 10:00 AM - 5:00 PM</p>
+                <p><strong>Venue:</strong> Unit 007-008, GF, Tower-A, Unitech Cyber Park, Durga Colony, Sector 39, Gurugram, Haryana</p>
+            </section>
+           
+            <section>
+                <h3>Why Attend? </h3>
+                <p class="centre-paragraph">Join us for an electrifying event where top coders, tech enthusiasts, and problem solvers come together to battle in competitive programming and innovation challenges!</p>
+                <h4>No Team? No Problem!</h4>
+                <p class="centre-paragraph">Participate solo or find teammates at our networking zone. Win exciting prizes, internships, and coding swag!</p>
+            </section>
+           
+            <section>
+                <h2>Event Rules</h2>
+                <p><strong>Registration:</strong> Mandatory</p>
+                <p><strong>Eligibility:</strong> Open for students & professionals</p>
+                <p><strong>Rounds:</strong> Algorithm challenge, Debugging round, Hackathon sprint</p>
+                <p> *Strictly follow the event rules for a fair competition.*</p>
+            </section>
+
+            <section>
+                <h2> Glimpses from Past Events</h2>
+                <p class="centre-paragraph">Still wondering how epic this event is? Check out some moments from our previous coding battles! </p>
+                <!-- Video of a past event -->
+                <h3> Watch the Action Unfold!</h3>
+                <video width="400" controls>
+                    <source src="/" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section>
+                <h2> Wondering Where to Come? </h2>
+                <p class="centre-paragraph">Lost in the matrix of locations? No worries! Just follow the map below and let Google navigate you straight to the battle arena!</p>
+               
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.2498021696124!2d77.0440715761918!3d28.45341687571783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d188155555555%3A0x6d49bbd8d8d8d8d8!2sUnitech%20Cyber%20Park!5e0!3m2!1sen!2sin!4v1707741245678!5m2!1sen!2sin"
+                width="400"
+                height="200"
+                style="border:0;"
+                loading="lazy">
+                </iframe>
+            </section>
+
+            <section>
+                <h2> RSVP Now!</h2>
+                <p class="centre-paragraph">Don't miss out! Confirm your spot by filling out the form below:</p>
+                <form autocomplete="off" action="thankyoupage.html">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required><br><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required><br><br>
+                   
+                    <label for="attending">Will you attend?</label>
+                    <select id="attending">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select><br><br>
+                   
+                    <input type="submit" value="Submit RSVP">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>For any queries, contact us at <a href="mailto:event@codingninjas.com">event@codingninjas.com</a></p>
+            <p>&copy; 2025 CodeXtravaganza. All Rights Reserved.</p>
+        </footer>
+
+        <!-- <hr>
+
+        <h1>Table Example</h1>
+        <table border="1">
+            <tr>
+                <th rowspan="2">Roll No</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Other Details</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Aakash</td>
+                <td>5'7</td>
+                <td>64</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aditi</td>
+                <td>5'5</td>
+                <td>62</td>
+            </tr>
+        </table>
+
+        <h1>Form Example</h1>
+        <form action="" autocomplete="off">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Name" required>
+            <br><br>
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Password" required>
+            <br><br>
+            
+            <label for="emailid">Email ID</label>
+            <input id="emailid" type="email" placeholder="Email ID">
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <br>
+            <input type="radio" name="gender" id="gender"> Male
+            <br>
+            <input type="radio" name="gender" id="gender"> Female
+            <br><br>
+
+            <label for="hobbies">Hobbies:</label>
+            <br>
+            <input type="checkbox" name="hobbies" value="Reading"> Reading
+            <br>
+            <input type="checkbox" name="hobbies" value="Swimming"> Swimming
+            <br>
+            <input type="checkbox" name="hobbies" value="Cricket"> Cricket
+            <br><br>
+
+            <label for="country">Select Country:</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Britain">Britain</option>
+            </select>
+            <br><br>
+
+            <button>Submit</button>
+        </form> -->
+
+    </body>
+</html>
